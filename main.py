@@ -1,5 +1,3 @@
-# https://github.com/dwyl/english-words
-# https://www.codedex.io/projects/build-a-word-guessing-game-with-python
 import random
 import json
 
@@ -52,4 +50,5 @@ while attempt > 0 and '_' in guessed_word:
         print('\nCongratulations!! You\'ve guessed the word: ' + word_to_guess)
         break
 else:
+
     print(f"\nGame over! The word was: {word_to_guess}")
